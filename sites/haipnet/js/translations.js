@@ -78,7 +78,7 @@ window.I18N.register({
       metal: { name: 'Metal', desc: 'Industrial parts and durable marking.' },
       threed: { name: '3D objects', desc: 'Solid parts via print-stacking.' },
       note: 'See the finished products and brand at',
-      noteLink: 'flexofab.com'
+      noteLink: 'flexofab.com.cn'
     },
     manufacturing: {
       heading: 'Manufacturing you can build a business on',
@@ -114,7 +114,7 @@ window.I18N.register({
     footer: {
       tagline: 'The flexible manufacturing printer network.',
       productHeading: 'Product',
-      productLink: 'FLEXOFAB — flexofab.com',
+      productLink: 'FLEXOFAB — flexofab.com.cn',
       companyHeading: 'Company',
       about: 'About',
       technology: 'Technology',
@@ -125,9 +125,8 @@ window.I18N.register({
       ip: 'IP management',
       support: 'Support',
       contactHeading: 'Contact',
-      email: 'partners@haipnet.com',
+      email: 'partners@haipnet.cn',
       copyright: '© 2026 HAIPNET. All rights reserved.',
-      legal: 'FLEXOFAB® is a registered trademark of HAIPNET.'
     }
   },
 
@@ -208,7 +207,7 @@ window.I18N.register({
       metal: { name: '金属', desc: '工业零件与耐用标记。' },
       threed: { name: '3D 物体', desc: '通过堆叠打印制成实体零件。' },
       note: '查看成品与品牌，请访问',
-      noteLink: 'flexofab.com'
+      noteLink: 'flexofab.com.cn'
     },
     manufacturing: {
       heading: '可以托付业务的制造能力',
@@ -243,7 +242,7 @@ window.I18N.register({
     footer: {
       tagline: '柔性制造打印机网络。',
       productHeading: '产品',
-      productLink: 'FLEXOFAB — flexofab.com',
+      productLink: 'FLEXOFAB — flexofab.com.cn',
       companyHeading: '公司',
       about: '关于我们',
       technology: '技术',
@@ -254,9 +253,9 @@ window.I18N.register({
       ip: '知识产权管理',
       support: '支持',
       contactHeading: '联系',
-      email: 'partners@haipnet.com',
+      email: 'partners@haipnet.cn',
       copyright: '© 2026 HAIPNET。保留所有权利。',
-      legal: 'FLEXOFAB® 是 HAIPNET 的注册商标。'
+      legal: 'FLEXOFAB 是 HAIPNET 的注册商标。'
     }
   }
 });

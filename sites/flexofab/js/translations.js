@@ -2,9 +2,9 @@
 window.I18N.register({
   en: {
     meta: {
-      title: 'FLEXOFAB® — Print on Anything',
+      title: 'FLEXOFAB — Print on Anything',
       description:
-        'FLEXOFAB is the product line for flexible-surface printing — fabric, plastic, metal, and true 3D objects via print-stacking technology. A registered trademark of HAIPNET.'
+        'FLEXOFAB is the product line for flexible-surface printing — fabric, plastic, metal, and true 3D objects via print-stacking technology.'
     },
     nav: {
       brand: 'FLEXOFAB',
@@ -12,7 +12,6 @@ window.I18N.register({
       surfaces: 'Surfaces',
       technology: 'Technology',
       applications: 'Applications',
-      trademark: 'Trademark',
       contact: 'Contact',
       cta: 'Request a sample',
       menu: 'Open menu',
@@ -94,20 +93,6 @@ window.I18N.register({
       item3: 'Marked metal',
       item4: 'Stacked 3D part'
     },
-    trademark: {
-      badge: 'Trademark',
-      title: 'FLEXOFAB® is a registered trademark of HAIPNET.',
-      desc:
-        'The FLEXOFAB name, logo, and print-stacking marks identify products manufactured on the HAIPNET network. Please follow the guidelines below when referencing the brand.',
-      point1Title: 'Use the ® mark',
-      point1Desc: 'Show FLEXOFAB® with the registered symbol on first or most prominent use.',
-      point2Title: 'Keep it distinct',
-      point2Desc: 'Do not alter, translate, or combine the FLEXOFAB mark with other names.',
-      point3Title: 'Attribute the owner',
-      point3Desc: 'Identify FLEXOFAB as a trademark of HAIPNET in legal or footer notices.',
-      parentNote: 'FLEXOFAB is manufactured and operated by',
-      parentLink: 'HAIPNET — haipnet.com'
-    },
     cta: {
       title: 'Ready to print on anything?',
       desc: 'Request a material sample or talk to our team about putting FLEXOFAB on your production line.',
@@ -124,19 +109,17 @@ window.I18N.register({
       companyHeading: 'Brand',
       technology: 'Technology',
       applications: 'Applications',
-      trademark: 'Trademark',
       parentHeading: 'Made by',
-      parentLink: 'HAIPNET — haipnet.com',
+      parentLink: 'HAIPNET — haipnet.cn',
       contactHeading: 'Contact',
-      email: 'hello@flexofab.com',
+      email: 'hello@flexofab.com.cn',
       copyright: '© 2026 HAIPNET. All rights reserved.',
-      legal: 'FLEXOFAB® is a registered trademark of HAIPNET.'
     }
   },
 
   zh: {
     meta: {
-      title: 'FLEXOFAB® — 可在任何表面打印',
+      title: 'FLEXOFAB — 可在任何表面打印',
       description:
         'FLEXOFAB 是面向柔性表面打印的产品线——支持织物、塑料、金属，并通过堆叠打印技术制作真正的 3D 物体。HAIPNET 注册商标。'
     },
@@ -146,7 +129,6 @@ window.I18N.register({
       surfaces: '表面',
       technology: '技术',
       applications: '应用',
-      trademark: '商标',
       contact: '联系我们',
       cta: '索取样品',
       menu: '打开菜单',
@@ -228,20 +210,6 @@ window.I18N.register({
       item3: '金属标记',
       item4: '堆叠 3D 零件'
     },
-    trademark: {
-      badge: '商标',
-      title: 'FLEXOFAB® 是 HAIPNET 的注册商标。',
-      desc:
-        'FLEXOFAB 名称、标志与堆叠打印标识用于标记在 HAIPNET 网络上制造的产品。引用本品牌时请遵循以下规范。',
-      point1Title: '使用 ® 标记',
-      point1Desc: '在首次或最显著的使用处标注 FLEXOFAB® 注册符号。',
-      point2Title: '保持独立',
-      point2Desc: '请勿更改、翻译 FLEXOFAB 标记，或与其他名称组合使用。',
-      point3Title: '注明所有者',
-      point3Desc: '在法律或页脚声明中注明 FLEXOFAB 为 HAIPNET 商标。',
-      parentNote: 'FLEXOFAB 由以下公司制造与运营：',
-      parentLink: 'HAIPNET — haipnet.com'
-    },
     cta: {
       title: '准备好在任何表面打印了吗？',
       desc: '索取材料样品，或与我们的团队沟通，将 FLEXOFAB 引入你的生产线。',
@@ -258,13 +226,12 @@ window.I18N.register({
       companyHeading: '品牌',
       technology: '技术',
       applications: '应用',
-      trademark: '商标',
       parentHeading: '制造方',
-      parentLink: 'HAIPNET — haipnet.com',
+      parentLink: 'HAIPNET — haipnet.cn',
       contactHeading: '联系',
-      email: 'hello@flexofab.com',
+      email: 'hello@flexofab.com.cn',
       copyright: '© 2026 HAIPNET。保留所有权利。',
-      legal: 'FLEXOFAB® 是 HAIPNET 的注册商标。'
+      legal: 'FLEXOFAB 是 HAIPNET 的注册商标。'
     }
   }
 });

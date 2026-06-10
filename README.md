@@ -6,8 +6,8 @@ plus true 3D via **print-stacking technology**.
 
 | Site | Domain | Purpose |
 | ---- | ------ | ------- |
-| [`sites/haipnet`](sites/haipnet) | **haipnet.com** | The company — printer manufacturer hosting the manufacturing network & IP platform |
-| [`sites/flexofab`](sites/flexofab) | **flexofab.com** | The product line & trademark — FLEXOFAB®, the multi-surface print products |
+| [`sites/haipnet`](sites/haipnet) | **haipnet.cn** | The company — printer manufacturer hosting the manufacturing network & IP platform |
+| [`sites/flexofab`](sites/flexofab) | **flexofab.com.cn** | The product line — FLEXOFAB, the multi-surface print products |
 
 Both sites cross-link to each other (HAIPNET ↔ FLEXOFAB).
 
@@ -28,14 +28,14 @@ Both sites cross-link to each other (HAIPNET ↔ FLEXOFAB).
 
 ```
 sites/
-  haipnet/                 # → haipnet.com
+  haipnet/                 # → haipnet.cn
     index.html
     css/styles.css
     js/
       i18n.js              # generic i18n engine (identical across sites)
       translations.js      # HAIPNET copy: { en, zh }
       main.js              # nav, sticky header, reveal-on-scroll
-  flexofab/                # → flexofab.com  (same structure)
+  flexofab/                # → flexofab.com.cn  (same structure)
 ```
 
 Each site folder is the deployable web root — there is nothing above it to ship.
@@ -86,5 +86,5 @@ way if you have one.
 - "Chinese" is implemented as **Simplified Chinese**. If Traditional Chinese is
   preferred, translate the `zh` blocks in both `translations.js` files and set the
   toggle/`<html lang>` to `zh-Hant`.
-- Replace placeholder contact addresses (`partners@haipnet.com`, `hello@flexofab.com`)
+- Replace placeholder contact addresses (`partners@haipnet.cn`, `hello@flexofab.com.cn`)
   with real ones before going live.
