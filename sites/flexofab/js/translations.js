@@ -114,6 +114,7 @@ window.I18N.register({
       contactHeading: 'Contact',
       email: 'hello@flexofab.com.cn',
       copyright: '© 2026 HAIPNET. All rights reserved.',
+      icp: '沪ICP备2026028310号',
     }
   },
 
@@ -231,6 +232,7 @@ window.I18N.register({
       contactHeading: '联系',
       email: 'hello@flexofab.com.cn',
       copyright: '© 2026 HAIPNET。保留所有权利。',
+      icp: '沪ICP备2026028310号',
       legal: 'FLEXOFAB 是 HAIPNET 的注册商标。'
     }
   }
