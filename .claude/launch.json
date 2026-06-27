@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "haipnet",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "sites/haipnet"],
+      "port": 4321
+    },
+    {
+      "name": "flexofab",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4322", "--directory", "sites/flexofab"],
+      "port": 4322
+    }
+  ]
+}
