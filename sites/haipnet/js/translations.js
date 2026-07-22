@@ -125,7 +125,7 @@ window.I18N.register({
       ip: 'IP management',
       support: 'Support',
       contactHeading: 'Contact',
-      email: 'partners@haipnet.cn',
+      email: '867886490@qq.com',
       copyright: '© 2026 HAIPNET. All rights reserved.',
       icp: '沪ICP备2026028310号',
     }
@@ -254,7 +254,7 @@ window.I18N.register({
       ip: '知识产权管理',
       support: '支持',
       contactHeading: '联系',
-      email: 'partners@haipnet.cn',
+      email: '867886490@qq.com',
       copyright: '© 2026 HAIPNET。保留所有权利。',
       icp: '沪ICP备2026028310号',
       legal: 'FLEXOFAB 是 HAIPNET 的注册商标。'

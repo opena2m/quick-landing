@@ -2,7 +2,7 @@
   "name": "haipnet-flexofab-landing",
   "version": "1.0.0",
   "private": true,
-  "description": "Static landing pages for HAIPNET (haipnet.cn) and FLEXOFAB (flexofab.com.cn) with EN/ZH i18n.",
+  "description": "Static landing pages for HAIPNET (haipnet.cn) and FLEXOFAB (flexofab.cn) with EN/ZH i18n.",
   "scripts": {
     "haipnet": "npx --yes serve sites/haipnet -l 4321",
     "flexofab": "npx --yes serve sites/flexofab -l 4322",
