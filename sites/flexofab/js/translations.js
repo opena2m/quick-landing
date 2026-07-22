@@ -1,10 +1,10 @@
-/* FLEXOFAB — translation dictionaries (English + Simplified Chinese) */
+/* FLEXOFAB - translation dictionaries (English + Simplified Chinese) */
 window.I18N.register({
   en: {
     meta: {
-      title: 'FLEXOFAB — Print on Anything',
+      title: 'FLEXOFAB - Print on Anything',
       description:
-        'FLEXOFAB is the product line for flexible-surface printing — fabric, plastic, metal, and true 3D objects via print-stacking technology.'
+        'FLEXOFAB is the product line for flexible-surface printing - fabric, plastic, metal, and true 3D objects via print-stacking technology.'
     },
     nav: {
       brand: 'FLEXOFAB',
@@ -21,7 +21,7 @@ window.I18N.register({
       badge: 'Fabric · Plastic · Metal · 3D',
       title: 'Print on anything.',
       subtitle:
-        'FLEXOFAB brings full-color, high-precision printing to soft and hard surfaces alike — and stacks layers into solid 3D objects. One brand, every material.',
+        'FLEXOFAB brings full-color, high-precision printing to soft and hard surfaces alike - and stacks layers into solid 3D objects. One brand, every material.',
       ctaPrimary: 'Explore surfaces',
       ctaSecondary: 'Request a sample',
       tagFabric: 'Fabric',
@@ -31,10 +31,10 @@ window.I18N.register({
     },
     surfaces: {
       heading: 'Four surfaces, one product line',
-      subheading: 'Whatever the material, FLEXOFAB lays down crisp color and detail — then builds upward into 3D.',
+      subheading: 'Whatever the material, FLEXOFAB lays down crisp color and detail - then builds upward into 3D.',
       fabric: {
         name: 'Fabric',
-        desc: 'Vivid, wash-durable prints on textiles, apparel, and soft signage — edge to edge, no transfers.'
+        desc: 'Vivid, wash-durable prints on textiles, apparel, and soft signage - edge to edge, no transfers.'
       },
       plastic: {
         name: 'Plastic',
@@ -46,14 +46,14 @@ window.I18N.register({
       },
       threed: {
         name: '3D objects',
-        desc: 'Print-stacking fuses layer on layer into solid, functional parts — straight from a digital model.'
+        desc: 'Print-stacking fuses layer on layer into solid, functional parts - straight from a digital model.'
       }
     },
     stacking: {
       badge: 'Print-stacking technology',
       title: 'The same printer that decorates also builds.',
       desc:
-        'FLEXOFAB print-stacking deposits material layer by layer and fuses each one, turning flat-surface printing into true additive manufacturing. From a logo on cotton to a finished 3D part — one platform.',
+        'FLEXOFAB print-stacking deposits material layer by layer and fuses each one, turning flat-surface printing into true additive manufacturing. From a logo on cotton to a finished 3D part - one platform.',
       step1Title: 'Deposit',
       step1Desc: 'Material is precisely placed across the surface.',
       step2Title: 'Fuse',
@@ -100,7 +100,7 @@ window.I18N.register({
       secondary: 'Contact us'
     },
     footer: {
-      tagline: 'Print on anything — fabric, plastic, metal, and 3D.',
+      tagline: 'Print on anything - fabric, plastic, metal, and 3D.',
       surfacesHeading: 'Surfaces',
       fabric: 'Fabric',
       plastic: 'Plastic',
@@ -110,7 +110,7 @@ window.I18N.register({
       technology: 'Technology',
       applications: 'Applications',
       parentHeading: 'Made by',
-      parentLink: 'HAIPNET — haipnet.cn',
+      parentLink: 'HAIPNET - haipnet.cn',
       contactHeading: 'Contact',
       email: '867886490@qq.com',
       copyright: '© 2026 HAIPNET. All rights reserved.',
@@ -120,9 +120,9 @@ window.I18N.register({
 
   zh: {
     meta: {
-      title: 'FLEXOFAB — 可在任何表面打印',
+      title: 'FLEXOFAB - 可在任何表面打印',
       description:
-        'FLEXOFAB 是面向柔性表面打印的产品线——支持织物、塑料、金属，并通过堆叠打印技术制作真正的 3D 物体。HAIPNET 注册商标。'
+        'FLEXOFAB 是面向柔性表面打印的产品线--支持织物、塑料、金属，并通过堆叠打印技术制作真正的 3D 物体。HAIPNET 注册商标。'
     },
     nav: {
       brand: 'FLEXOFAB',
@@ -139,7 +139,7 @@ window.I18N.register({
       badge: '织物 · 塑料 · 金属 · 3D',
       title: '可在任何表面打印。',
       subtitle:
-        'FLEXOFAB 为软硬表面带来全彩、高精度打印——并可将层层堆叠成实体 3D 物体。一个品牌，覆盖每一种材料。',
+        'FLEXOFAB 为软硬表面带来全彩、高精度打印--并可将层层堆叠成实体 3D 物体。一个品牌，覆盖每一种材料。',
       ctaPrimary: '探索表面',
       ctaSecondary: '索取样品',
       tagFabric: '织物',
@@ -149,10 +149,10 @@ window.I18N.register({
     },
     surfaces: {
       heading: '四种表面，一条产品线',
-      subheading: '无论何种材料，FLEXOFAB 都能呈现清晰的色彩与细节——并向上堆叠成 3D。',
+      subheading: '无论何种材料，FLEXOFAB 都能呈现清晰的色彩与细节--并向上堆叠成 3D。',
       fabric: {
         name: '织物',
-        desc: '在纺织品、服装与软质标识上呈现鲜艳、耐洗的图案——满版打印，无需转印。'
+        desc: '在纺织品、服装与软质标识上呈现鲜艳、耐洗的图案--满版打印，无需转印。'
       },
       plastic: {
         name: '塑料',
@@ -164,14 +164,14 @@ window.I18N.register({
       },
       threed: {
         name: '3D 物体',
-        desc: '堆叠打印将层层熔合为实体功能零件——直接由数字模型生成。'
+        desc: '堆叠打印将层层熔合为实体功能零件--直接由数字模型生成。'
       }
     },
     stacking: {
       badge: '堆叠打印技术',
       title: '同一台打印机既能装饰，也能成型。',
       desc:
-        'FLEXOFAB 堆叠打印逐层沉积材料并熔合每一层，把平面打印变为真正的增材制造。从棉布上的标志到成型的 3D 零件——同一平台完成。',
+        'FLEXOFAB 堆叠打印逐层沉积材料并熔合每一层，把平面打印变为真正的增材制造。从棉布上的标志到成型的 3D 零件--同一平台完成。',
       step1Title: '沉积',
       step1Desc: '材料被精准地铺设在表面上。',
       step2Title: '熔合',
@@ -218,7 +218,7 @@ window.I18N.register({
       secondary: '联系我们'
     },
     footer: {
-      tagline: '可在任何表面打印——织物、塑料、金属与 3D。',
+      tagline: '可在任何表面打印--织物、塑料、金属与 3D。',
       surfacesHeading: '表面',
       fabric: '织物',
       plastic: '塑料',
@@ -228,7 +228,7 @@ window.I18N.register({
       technology: '技术',
       applications: '应用',
       parentHeading: '制造方',
-      parentLink: 'HAIPNET — haipnet.cn',
+      parentLink: 'HAIPNET - haipnet.cn',
       contactHeading: '联系',
       email: '867886490@qq.com',
       copyright: '© 2026 HAIPNET。保留所有权利。',

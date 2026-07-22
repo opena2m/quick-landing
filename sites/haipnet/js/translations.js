@@ -1,8 +1,8 @@
-/* HAIPNET — translation dictionaries (English + Simplified Chinese) */
+/* HAIPNET - translation dictionaries (English + Simplified Chinese) */
 window.I18N.register({
   en: {
     meta: {
-      title: 'HAIPNET — The Flexible Manufacturing Printer Network',
+      title: 'HAIPNET - The Flexible Manufacturing Printer Network',
       description:
         'HAIPNET designs and manufactures industrial printers and operates a connected manufacturing network with built-in IP and license management. Print on fabric, plastic, metal, and in 3D with print-stacking technology.'
     },
@@ -22,7 +22,7 @@ window.I18N.register({
       badge: 'Flexible Manufacturing · Printer Network · IP Management',
       title: 'The connected network behind flexible manufacturing.',
       subtitle:
-        'HAIPNET builds industrial printers and runs the platform that links them — printing on fabric, plastic, and metal, plus true 3D through print-stacking technology, all with built-in IP and license management.',
+        'HAIPNET builds industrial printers and runs the platform that links them - printing on fabric, plastic, and metal, plus true 3D through print-stacking technology, all with built-in IP and license management.',
       ctaPrimary: 'Explore the platform',
       ctaSecondary: 'Talk to our team',
       stat1Value: '4',
@@ -37,7 +37,7 @@ window.I18N.register({
     pillars: {
       heading: 'One platform, three capabilities',
       subheading:
-        'HAIPNET is the manufacturer, the network operator, and the rights layer — so a design goes from file to finished product without leaving the system.',
+        'HAIPNET is the manufacturer, the network operator, and the rights layer - so a design goes from file to finished product without leaving the system.',
       hardware: {
         title: 'Printer manufacturing',
         desc:
@@ -72,7 +72,7 @@ window.I18N.register({
     materials: {
       heading: 'Built to print on almost anything',
       subheading:
-        'The same network handles soft goods, rigid parts, and metal — finished and branded under our product line.',
+        'The same network handles soft goods, rigid parts, and metal - finished and branded under our product line.',
       fabric: { name: 'Fabric', desc: 'Textiles, apparel, and soft signage.' },
       plastic: { name: 'Plastic', desc: 'Panels, packaging, and rigid surfaces.' },
       metal: { name: 'Metal', desc: 'Industrial parts and durable marking.' },
@@ -107,14 +107,14 @@ window.I18N.register({
     },
     cta: {
       title: 'Bring your manufacturing onto the network.',
-      desc: 'Partner with HAIPNET to manufacture, distribute, and protect your products — on one connected platform.',
+      desc: 'Partner with HAIPNET to manufacture, distribute, and protect your products - on one connected platform.',
       button: 'Partner with us',
       secondary: 'Contact sales'
     },
     footer: {
       tagline: 'The flexible manufacturing printer network.',
       productHeading: 'Product',
-      productLink: 'FLEXOFAB — flexofab.cn',
+      productLink: 'FLEXOFAB - flexofab.cn',
       companyHeading: 'Company',
       about: 'About',
       technology: 'Technology',
@@ -133,7 +133,7 @@ window.I18N.register({
 
   zh: {
     meta: {
-      title: 'HAIPNET — 柔性制造打印机网络',
+      title: 'HAIPNET - 柔性制造打印机网络',
       description:
         'HAIPNET 设计并制造工业打印机，运营内置知识产权与授权管理的互联制造网络。支持在织物、塑料、金属表面打印，并通过堆叠打印技术实现真正的 3D 制造。'
     },
@@ -153,7 +153,7 @@ window.I18N.register({
       badge: '柔性制造 · 打印机网络 · 知识产权管理',
       title: '柔性制造背后的互联网络。',
       subtitle:
-        'HAIPNET 制造工业打印机并运营连接它们的平台——在织物、塑料和金属上打印，并通过堆叠打印技术实现真正的 3D 制造，全程内置知识产权与授权管理。',
+        'HAIPNET 制造工业打印机并运营连接它们的平台--在织物、塑料和金属上打印，并通过堆叠打印技术实现真正的 3D 制造，全程内置知识产权与授权管理。',
       ctaPrimary: '探索平台',
       ctaSecondary: '联系团队',
       stat1Value: '4',
@@ -168,7 +168,7 @@ window.I18N.register({
     pillars: {
       heading: '一个平台，三大能力',
       subheading:
-        'HAIPNET 既是制造商，也是网络运营方与版权层——让一份设计从文件到成品，全程不离开系统。',
+        'HAIPNET 既是制造商，也是网络运营方与版权层--让一份设计从文件到成品，全程不离开系统。',
       hardware: {
         title: '打印机制造',
         desc:
@@ -202,7 +202,7 @@ window.I18N.register({
     },
     materials: {
       heading: '几乎可在任何表面打印',
-      subheading: '同一网络处理软质产品、刚性零件和金属——在我们的产品线下完成成品与品牌化。',
+      subheading: '同一网络处理软质产品、刚性零件和金属--在我们的产品线下完成成品与品牌化。',
       fabric: { name: '织物', desc: '纺织品、服装与软质标识。' },
       plastic: { name: '塑料', desc: '面板、包装与刚性表面。' },
       metal: { name: '金属', desc: '工业零件与耐用标记。' },
@@ -243,7 +243,7 @@ window.I18N.register({
     footer: {
       tagline: '柔性制造打印机网络。',
       productHeading: '产品',
-      productLink: 'FLEXOFAB — flexofab.cn',
+      productLink: 'FLEXOFAB - flexofab.cn',
       companyHeading: '公司',
       about: '关于我们',
       technology: '技术',
