@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻稿 | 海纳创为助力中马文化交流——“纹样之间”青少年图案创意工作坊圆满落幕</title>
+    <style>
+        :root {
+            --primary-color: #0b3d91; /* 科技与跨文化蓝 */
+            --secondary-color: #c9a776; /* 传统文化金 */
+            --text-main: #333333;
+            --text-light: #666666;
+            --bg-light: #f5f7fa;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f6;
+            color: var(--text-main);
+            line-height: 1.8;
+        }
+
+        .press-release-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 50px 60px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-top: 6px solid var(--primary-color);
+            border-radius: 4px;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .company-logo {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            letter-spacing: 1px;
+        }
+        
+        .release-date {
+            font-size: 0.9rem;
+            color: #999999;
+        }
+
+        /* Title Area */
+        .pr-title {
+            font-size: 2rem;
+            line-height: 1.35;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .pr-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 35px;
+        }
+
+        /* Content Area */
+        .pr-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 1.05rem;
+        }
+
+        .pr-content h3 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 12px;
+        }
+
+        .highlight-quote {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+            color: #444;
+            font-size: 1.1rem;
+        }
+
+        /* Image Placeholders */
+        .image-wrapper {
+            margin: 35px 0;
+            text-align: center;
+        }
+        
+        .image-placeholder {
+            background-color: #f0f4f8;
+            border: 2px dashed #cbd5e1;
+            padding: 5px;
+            color: #64748b;
+            font-size: 0.95rem;
+            border-radius: 6px;
+        }
+
+        .image-caption {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        
+        /* Links & Attachments Section */
+        .resource-section {
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #f9fbfd;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+        }
+        
+        .resource-section h4 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .resource-group {
+            margin-bottom: 20px;
+        }
+        
+        .resource-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .resource-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .resource-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .resource-list li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .resource-list a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            transition: color 0.2s ease;
+        }
+        
+        .resource-list a:hover {
+            color: #1a365d;
+            text-decoration: underline;
+        }
+        
+        .icon {
+            margin-right: 8px;
+            font-size: 1.2rem;
+            width: 24px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eeeeee;
+        }
+        
+        footer h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-bottom: 5px;
+            line-height: 1.6;
+        }
+        
+        .media-contact {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .press-release-container {
+                margin: 0;
+                padding: 30px 20px;
+                border-radius: 0;
+            }
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .pr-title {
+                font-size: 1.6rem;
+            }
+            .pr-subtitle {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="press-release-container">
+        <header>
+            <div class="company-logo">上海海纳创为文化科技有限公司 | 新闻发布</div>
+            <div class="release-date">发布时间：2026年7月30日</div>
+        </header>
+        
+        <h1 class="pr-title">海纳创为助力中马文化交流——“纹样之间”青少年图案创意工作坊于都江堰圆满落幕</h1>
+        <h2 class="pr-subtitle">科技赋能传统纹样，定制打印T恤见证中马建交55周年新篇章</h2>
+
+        <div class="pr-content">
+            <p><strong>中国，都江堰</strong> —— 近日，由上海海纳创为文化科技有限公司（以下简称“海纳创为”）倾情赞助支持的“纹样之间——马耳他马萨斯卡拉市与中国都江堰市青少年图案创意工作坊”系列活动，在都江堰市龙江路小学万达校区（东区）及莲花社区圆满落幕。</p>
+            
+            <div class="image-wrapper">
+                <div class="image-placeholder"><img src="./res/30.jpg" width="100%"/></div>
+                <div class="image-caption">将龙小-万达（东区）孩子们的创意化为现实</div>
+            </div>
+
+            <div class="image-wrapper">
+                <div class="image-placeholder"><img src="./res/640.webp" width="100%"/></div>
+                <div class="image-caption">将莲花社区孩子们的创意化为现实</div>
+            </div>
+
+            <p>本次活动旨在通过文化艺术交流，深化马萨斯卡拉市与都江堰市自2022年签署友好城市协议以来的深厚情谊。作为本次活动的独家T恤与打印设备赞助商，海纳创为将前沿的数码打印科技带到了活动现场，让两国青少年的跨文化创意在T恤上生动绽放。</p>
+
+            <h3>当“传统纹样”遇上“现代打印科技”</h3>
+            <p>在马耳他知名平面设计师、插画师扬·皮罗塔（Yan Pirotta）先生的指导下，都江堰的青少年们将马耳他传统花砖、蕾丝、十字纹样与中国的青花瓷、回纹、祥云等元素巧妙解构与融合。为了让这些跃然纸上的创意作品真正融入生活，海纳创为特别在现场部署了专业的“T恤定制打印工作站”。</p>
+            
+            <div class="image-wrapper">
+                <div class="image-placeholder"><img src="./res/12.jpg" width="100%"/></div>
+                <div class="image-caption">海纳创为提供现场T恤印制技术支持，将孩子们的创意瞬间化为现实</div>
+            </div>
+
+            <p>孩子们在完成图案设计后，海纳创为的技术人员使用高清数码打印设备，将一幅幅充满童趣与文化底蕴的“中马融合纹样”实时印制在纯白T恤上。看着自己的艺术作品瞬间变成可以穿在身上的“定制款”，现场的孩子们兴奋不已，纷纷穿上专属T恤合影留念，体验了一场完美的“科技+美育”之旅。</p>
+
+            <h3>马耳他驻华大使馆副馆长高度评价</h3>
+            <p>马耳他驻华大使馆副馆长金伯利·扎米特（Kimberly Zammit）女士全程参与了此次工作坊活动。在致辞中，扎米特女士对海纳创为的鼎力支持给予了特别致谢：</p>
+            
+            <div class="highlight-quote">
+                “我还要感谢上海海纳创为文化科技有限公司慷慨赞助T恤的印制。通过这次工作坊，我们希望在场的每一位年轻参与者都能发挥自己的创意，享受用马耳他图案和中国图案设计自己T恤的乐趣。我也希望这件T恤能成为马耳他人民与中国人民深厚友谊的纪念品。”
+            </div>
+            
+            <p>扎米特女士表示，明年一月将迎来马耳他与中国建交55周年，此次工作坊正是两国积极双边关系的生动见证。在活动现场，扎米特女士与扬·皮罗塔先生一同为孩子们展示了刚刚打印完成的精美T恤，并竖起大拇指点赞，将现场气氛推向高潮。</p>
+
+            <div class="image-wrapper">
+                <div class="image-placeholder"><img src="./res/24.jpg" width="100%"/></div>
+                <div class="image-caption">马耳他驻华大使馆副馆长金伯利·扎米特女士（左）与设计师扬·皮罗塔先生（右）为孩子们的T恤作品点赞</div>
+            </div>
+
+            <h3>以科技践行企业社会责任</h3>
+            <p>对于此次赞助，海纳创为项目负责人表示：“科技的终极意义在于服务人文。我们非常荣幸能以‘定制T恤’和‘现场打印技术’为载体，深度参与到中马两国的文化互鉴中。这不仅是一次简单的物资赞助，更是我们用科技赋能传统文化的一次成功实践。每一件被打印出来的T恤，都是独一无二的文化交流名片。”</p>
+            
+            <p>面向未来，海纳创为将继续秉持“海纳百川，文化创为”的企业愿景，积极支持各类国际文化交流与青少年美育活动，用创新的科技手段讲好中国故事，为构建面向未来的国际友谊贡献力量。</p>
+            
+            <!-- 资源及附件区域 -->
+            <div class="resource-section">
+                
+                <div class="resource-group">
+                    <h4>🔗 相关报道链接</h4>
+                    <ul class="resource-list">
+                        <li>
+                            <span class="icon">🌐</span>
+                            <a href="https://mp.weixin.qq.com/s/H8U0h4vtwmYfBqrwt84wVA" target="_blank">
+                                微信公众号：纹样之间 | 青少年图案创意工作坊活动回顾
+                            </a>
+                        </li>
+                        <li>
+                            <span class="icon">🌐</span>
+                            <a href="https://www.facebook.com/share/p/17pS4wAy89/" target="_blank">
+                                Facebook：活动官方亮点分享 (Event Highlights)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resource-group">
+                    <h4>📎 新闻附件下载</h4>
+                    <ul class="resource-list">
+                        <li>
+                            <span class="icon">📄</span>
+                            <a href="./res/马耳他驻华大使馆副馆长讲话.pdf" target="_blank" download>
+                                马耳他驻华大使馆副馆长讲话.pdf
+                            </a>
+                        </li>
+                        <li>
+                            <span class="icon">📄</span>
+                            <a href="./res/纹样之间·海纳创为·都江堰.pdf" target="_blank" download>
+                                纹样之间·海纳创为·都江堰.pdf
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <footer>
+            <h4>关于上海海纳创为文化科技有限公司</h4>
+            <p>上海海纳创为文化科技有限公司致力于文化艺术与前沿科技的融合创新，提供包括高端数码打印、文化创意定制、科技文化活动策划在内的全方位服务。公司深耕文化赋能领域，是推动中外文化交流与产业升级的积极力量。</p>
+            <p class="media-contact">官方网站：<a href="/">haipnet.cn</a></p>
+        </footer>
+    </div>
+</body>
+</html>
